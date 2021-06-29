@@ -3,7 +3,7 @@ const path = require('path');
 const HTMLWebpackPlagin = require('html-webpack-plugin');
 
 const NODE_ENV = process.env.NODE_ENV;
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 const isDevMode = NODE_ENV === 'development';
 
 const env = {
