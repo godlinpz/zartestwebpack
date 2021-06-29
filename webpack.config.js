@@ -83,8 +83,8 @@ module.exports = {
         open: true,
         hot: true,
         historyApiFallback: true,
-        // host: '0.0.0.0',
-        // https: true,
+        host: 'zartestwebpack.herokuapp.com',
+        https: true,
     },
     devtool: 'source-map',
 };
