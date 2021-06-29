@@ -3,6 +3,7 @@ const path = require('path');
 const HTMLWebpackPlagin = require('html-webpack-plugin');
 
 const NODE_ENV = process.env.NODE_ENV;
+const PORT = process.env.PORT;
 const isDevMode = NODE_ENV === 'development';
 
 const env = {
@@ -77,7 +78,7 @@ module.exports = {
         }),
     ],
     devServer: {
-        port: 3000,
+        port: PORT,
         overlay: true,
         open: true,
         hot: true,
