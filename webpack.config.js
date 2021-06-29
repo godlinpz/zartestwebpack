@@ -83,8 +83,8 @@ module.exports = {
         open: true,
         hot: true,
         historyApiFallback: true,
-        host: '0.0.0.0',
-        https: true,
+        // host: '0.0.0.0',
+        // https: true,
     },
     devtool: 'source-map',
 };
