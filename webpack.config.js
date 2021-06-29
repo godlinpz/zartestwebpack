@@ -84,7 +84,10 @@ module.exports = {
         // hot: true,
         historyApiFallback: true,
         host: '0.0.0.0',
-        disableHostCheck: true,
+        // disableHostCheck: true,
+        allowedHosts: [
+            'zartestwebpack.herokuapp.com'
+        ]
         //https: true,  
     },
     devtool: 'source-map',
